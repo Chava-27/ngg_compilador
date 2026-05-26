@@ -1,0 +1,64 @@
+# =========================
+# ARCHIVOS COMPILADOS JAVA
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+
+# =========================
+# CARPETAS GENERADAS
+# =========================
+build/
+dist/
+
+# =========================
+# RESULTADOS GENERADOS
+# =========================
+resultados/*
+!resultados/.gitkeep
+
+src/resultados/*
+!src/resultados/.gitkeep
+
+# =========================
+# EJECUTABLES
+# =========================
+*.exe
+*.dll
+*.o
+*.obj
+
+# =========================
+# NETBEANS
+# =========================
+nbproject/private/
+nbproject/private/private.properties
+nbproject/private/private.xml
+
+# =========================
+# LOGS Y TEMPORALES
+# =========================
+*.log
+*.tmp
+
+# =========================
+# SISTEMA OPERATIVO
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# VSCODE
+# =========================
+.vscode/
+
+# =========================
+# INTELLIJ
+# =========================
+.idea/
+
+# =========================
+# ARCHIVOS GENERADOS POR GCC
+# =========================
+*.out
