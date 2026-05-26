@@ -449,6 +449,105 @@ README.md
 ```
 
 ---
+# 📚 Sintaxis del lenguaje NGG
+
+La siguiente tabla muestra las características y estructuras actualmente soportadas por el lenguaje NGG Compiler.
+
+---
+
+| Categoría | Sintaxis | Descripción |
+|---|---|---|
+| 🔢 Variables | `int x = 10;` | Declaración de variables |
+| ➕ Operaciones aritméticas | `x + y` | Suma |
+| ➖ Operaciones aritméticas | `x - y` | Resta |
+| ✖️ Operaciones aritméticas | `x * y` | Multiplicación |
+| ➗ Operaciones aritméticas | `x / y` | División |
+| 📌 Asignación | `x = 20;` | Asignación de valores |
+| 🧠 Comparaciones | `x > y` | Comparadores relacionales |
+| 🧠 Comparaciones | `x < y` | Comparadores relacionales |
+| 🧠 Comparaciones | `x == y` | Comparación de igualdad |
+| 🧠 Comparaciones | `x != y` | Comparación diferente |
+| 🔀 Condicionales | `if (x > 10)` | Estructuras condicionales |
+| 🔀 Condicionales | `else` | Bloque alternativo |
+| 🖨️ Salida | `print("Hola");` | Impresión en consola |
+| 🔤 Strings | `"Hola Mundo"` | Literales de texto |
+| 🔢 Números enteros | `123` | Literales numéricos |
+| 🧱 Bloques | `{ }` | Agrupación de instrucciones |
+| 📝 Expresiones | `x + y * z` | Expresiones complejas |
+| 📦 Tokens | `IDENTIFIER`, `NUMBER` | Tipos de tokens soportados |
+| 🌳 AST | `BinaryExpressionNode` | Construcción del AST |
+| ⚙️ Generación C | `printf()` | Traducción automática hacia C |
+| 🖥️ Ejecutables | `programa.exe` | Generación de ejecutables reales |
+
+---
+
+# ✅ Ejemplo de programa válido
+
+```txt
+int x = 10;
+int y = 20;
+
+if (x < y) {
+    print("x es menor que y");
+}
+```
+
+---
+
+# ⚠️ Características NO soportadas actualmente
+
+Actualmente NGG Compiler aún NO soporta:
+
+- Funciones definidas por el usuario
+- Parámetros
+- Retorno de funciones
+- Ciclos `for`
+- Ciclos `while`
+- Ciclos `do-while`
+- Arreglos
+- Matrices
+- Objetos
+- Clases
+- Herencia
+- Interfaces
+- Structs
+- Punteros
+- Recursividad
+- Librerías externas
+- Entrada de usuario (`input`)
+- Tipos flotantes (`float`, `double`)
+- Booleanos (`true`, `false`)
+- Switch / Case
+- Break / Continue
+- Operadores lógicos complejos
+- Manejo de excepciones
+- Múltiples archivos fuente
+- Compilación cruzada
+- Generación de binarios Linux
+- Optimización avanzada
+- Garbage Collector
+- Tipado dinámico
+
+---
+
+# 🚧 Estado del proyecto
+
+NGG Compiler actualmente se encuentra en una etapa experimental y educativa, enfocado principalmente en demostrar el funcionamiento interno de un compilador moderno:
+
+```txt
+Código fuente → AST → Semántica → C → GCC → Ejecutable
+```
+
+El objetivo principal del proyecto es académico y de aprendizaje sobre:
+
+- Diseño de lenguajes
+- Compiladores
+- AST
+- Parsers
+- Semántica
+- Generación de código
+- Backend de compiladores
+---
 
 # 👨‍💻 Autor
 
